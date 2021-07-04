@@ -1,0 +1,67 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $very-light-gray;
+    border-radius: 8rem;
+    height: 5rem;
+    width: 15rem;
+    cursor: pointer;
+
+    a {
+        padding: 0 3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+}
+
+.btn-orange {
+    border: 2px solid $bright-orange;
+
+    a {
+        color: $bright-orange;
+    }
+
+    &:hover {
+        background-color: $bright-orange;
+        border: 2px solid $very-light-gray;
+
+        a {
+            color: $very-light-gray;
+        }
+    }
+}
+
+.btn-dark-cyan {
+    border: 2px solid $dark-cyan;
+
+    a {
+        color: $dark-cyan;
+    }
+
+    &:hover {
+        background-color: $dark-cyan;
+        border: 2px solid $very-light-gray;
+
+        a {
+            color: $very-light-gray;
+        }
+    }
+}
+
+.btn-very-dark-cyan {
+    border: 2px solid $very-dark-cyan;
+
+    a {
+        color: $very-dark-cyan;
+    }
+
+    &:hover {
+        background-color: $very-dark-cyan;
+        border: 2px solid $very-light-gray;
+
+        a {
+            color: $very-light-gray;
+        }
+    }
+}
