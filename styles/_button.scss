@@ -1,0 +1,35 @@
+.btn {
+  background-color: var(--buttons);
+  width: 14.8rem;
+  height: 4.9rem;
+  border: 2px solid var(--buttons);
+  border-radius: 2.5rem;
+  cursor: pointer;
+
+  &.orange {
+    color: var(--orange);
+
+    &:hover {
+      background-color: var(--orange);
+      color: var(--buttons);
+    }
+  }
+
+  &.cyan {
+    color: var(--cyan);
+
+    &:hover {
+      background-color: var(--cyan);
+      color: var(--buttons);
+    }
+  }
+
+  &.cyan2 {
+    color: var(--cyan2);
+
+    &:hover {
+      background-color: var(--cyan2);
+      color: var(--buttons);
+    }
+  }
+}

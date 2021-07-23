@@ -1,0 +1,43 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --cyan2: hsl(179, 100%, 13%);
+
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --background: hsl(0, 0%, 95%);
+  --headings: hsl(0, 0%, 95%);
+  --buttons: hsl(0, 0%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--background);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 8.8rem;
+  margin-bottom: 8.8rem;
+}
+
+.container {
+  max-width: 87%;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 92rem;
+  }
+}
